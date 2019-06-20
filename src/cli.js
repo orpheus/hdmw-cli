@@ -62,7 +62,7 @@ cli
   })
 
 cli
-  .command('getPrivatekey <coin> <account> <chain> <address>')
+  .command('getPrivateKey <coin> <account> <chain> <address>')
   .description('get private key (wif) for given node path')
   .alias('wif')
   .action( async function (args) {
