@@ -1,5 +1,5 @@
 ### install
-`git clone https://www.github.com/'orpheus/hdmw-helper`
+`git clone https://github.com/orpheus/hdmw-cli.git`
 
 `cd hdmw-helper`
 
