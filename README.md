@@ -1,7 +1,7 @@
 ### install
 `git clone https://github.com/orpheus/hdmw-cli.git`
 
-`cd hdmw-helper`
+`cd hdmw-cli`
 
 `yarn install`
 
