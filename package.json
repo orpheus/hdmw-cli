@@ -1,0 +1,23 @@
+{
+  "name": "hdmw-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx babel src --out-dir lib",
+    "start": "yarn compile && node lib/cli.js"
+  },
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "oip-hdmw": "^1.3.27",
+    "vorpal": "^1.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0"
+  }
+}
