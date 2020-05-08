@@ -1,5 +1,5 @@
 import vorpal from 'vorpal'
-import { Wallet } from 'oip-hdmw'
+import { Wallet } from '@oipwg/hdmw'
 import { validateMnemonic } from 'bip39'
 
 const cli = vorpal()
